@@ -1,0 +1,9 @@
+Package: com.pajk.hookapp
+Name: HOOKAPP
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Kalicy Zhou
+Author: Kalicy Zhou
+Section: Tweaks
