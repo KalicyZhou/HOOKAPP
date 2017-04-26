@@ -136,4 +136,6 @@ root@localhost s password: alpine
 这个时候输入成功后这个时候SpringBoard已经开始重启了。
 <img src="https://github.com/KalicyZhou/HOOKAPP/blob/master/hooked.gif?raw=true">
 
-引用：http://www.jianshu.com/p/8982e9670fc6
+引用：
+http://www.jianshu.com/p/8982e9670fc6
+http://m.blog.csdn.net/article/details?id=49181295
