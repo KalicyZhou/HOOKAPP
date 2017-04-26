@@ -58,7 +58,8 @@ mkdir iOSDev && cd iOSDev
 ```
 然后我们进入工程目录会发现生成四个文件：
 
-<img src="http://upload-images.jianshu.io/upload_images/790890-a952ef4b238707c8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"  height="64" alt="lehneres">
+![iamge](https://github.com/KalicyZhou/HOOKAPP/blob/master/fils.png?raw=true)
+
 1, Makefile
 
 ```bash
@@ -111,7 +112,7 @@ iOS设备一定要已经安装了Open ssh （默认密码alpine,如果忘记密�
 
 ### 2，这个时候我们差不多都配置好了，可以把自己写的APP，然后运行到设备上了，运行之后点击测试下未HOOK之前的按钮点击方法:
 
-![iamge](http://upload-images.jianshu.io/upload_images/790890-27439b4c0aacf59c.gif?imageMogr2/auto-orient/strip)
+![iamge](https://github.com/KalicyZhou/HOOKAPP/blob/master/non-hook.gif?raw=true)
 
 ### 3，接下来我们利用终端cd进入你创建的tweak项目目录，然后执行make package install，然后输入两次ssh的连接密码(ssh 默认密码alpine)，然后设备就会重启SpringBoard,然后我们再次打开HOOK的APP发现按钮的点击方法已经被替换了。
 
@@ -132,6 +133,6 @@ root@localhost's password: alpine
 root@localhost's password: alpine
 ```
 这个时候输入成功后这个时候SpringBoard已经开始重启了。
-<img src="http://upload-images.jianshu.io/upload_images/790890-fb6adb793013ecc3.gif?imageMogr2/auto-orient/strip">
+<img src="https://github.com/KalicyZhou/HOOKAPP/blob/master/hooked.gif?raw=true">
 
 引用：http://www.jianshu.com/p/8982e9670fc6
