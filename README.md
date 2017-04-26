@@ -111,7 +111,7 @@ iOS设备一定要已经安装了Open ssh （默认密码alpine,如果忘记密�
 
 ### 2，这个时候我们差不多都配置好了，可以把自己写的APP，然后运行到设备上了，运行之后点击测试下未HOOK之前的按钮点击方法:
 
-[img]http://upload-images.jianshu.io/upload_images/790890-27439b4c0aacf59c.gif?imageMogr2/auto-orient/strip[/img]
+![iamge](http://upload-images.jianshu.io/upload_images/790890-27439b4c0aacf59c.gif?imageMogr2/auto-orient/strip)
 
 ### 3，接下来我们利用终端cd进入你创建的tweak项目目录，然后执行make package install，然后输入两次ssh的连接密码(ssh 默认密码alpine)，然后设备就会重启SpringBoard,然后我们再次打开HOOK的APP发现按钮的点击方法已经被替换了。
 
