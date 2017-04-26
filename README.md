@@ -103,18 +103,19 @@ handler:nil];
 iOS设备一定要已经安装了Open ssh （默认密码alpine,如果忘记密码可自行查找如何修改密码）
 保证你的theos配置文件没有问题。
 ```
-### 1，通过USB, 使用ssh 访问越狱iPhone
+1，通过USB, 使用ssh 访问越狱iPhone
+
 首先，同样手机要越狱，越狱胡要安装openssh工具。
 
 第一，通过USB访问，有没有WiFi无所谓了，但是你得在pc安装usbmuxd服务，没有的大家可以去http://cgit.sukimashita.com/usbmuxd.git/ 下载1.0.8版本。解压进入python-client目录后，执行命令：python tcprelay.py –t 22:2222,这样就开通了一个从本机2222端口通往目标主机22号端口的通道，执行完后会出现Forwarding  local port 2222 to remote port 22
 
 第二， 另起终端，执行命令ssh root@localhost –p 2222,然后提示输入密码，这是手机的密码，默认为alpine。
 
-### 2，这个时候我们差不多都配置好了，可以把自己写的APP，然后运行到设备上了，运行之后点击测试下未HOOK之前的按钮点击方法:
+2，这个时候我们差不多都配置好了，可以把自己写的APP，然后运行到设备上了，运行之后点击测试下未HOOK之前的按钮点击方法:
 
 ![iamge](https://github.com/KalicyZhou/HOOKAPP/blob/master/non-hook.gif?raw=true)
 
-### 3，接下来我们利用终端cd进入你创建的tweak项目目录，然后执行make package install，然后输入两次ssh的连接密码(ssh 默认密码alpine)，然后设备就会重启SpringBoard,然后我们再次打开HOOK的APP发现按钮的点击方法已经被替换了。
+3，接下来我们利用终端cd进入你创建的tweak项目目录，然后执行make package install，然后输入两次ssh的连接密码(ssh 默认密码alpine)，然后设备就会重启SpringBoard,然后我们再次打开HOOK的APP发现按钮的点击方法已经被替换了。
 
 ```bash
 cd hookapp
