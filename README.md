@@ -48,7 +48,7 @@ mkdir iOSDev && cd iOSDev
 #   [12.] iphone/xpc_service
 # 我们可以看到iphone/tweak,所以我们输入 11 选择一个tweak工程，然后回车确定
  Choose a Template (required): 11
- Project Name (required): HOOKSPP
+ Project Name (required): HOOKAPP
  Package Name [com.yourcompany.test]: com.pajk.hookapp
  Author/Maintainer Name: zhoujie
  [iphone/tweak] MobileSubstrate Budle filter [com.apple.springboard]: com.pajk.test
