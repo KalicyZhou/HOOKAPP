@@ -133,3 +133,5 @@ root@localhost's password: alpine
 ```
 这个时候输入成功后这个时候SpringBoard已经开始重启了。
 <img src="http://upload-images.jianshu.io/upload_images/790890-fb6adb793013ecc3.gif?imageMogr2/auto-orient/strip">
+
+引用：http://www.jianshu.com/p/8982e9670fc6
