@@ -137,5 +137,9 @@ root@localhost s password: alpine
 <img src="https://github.com/KalicyZhou/HOOKAPP/blob/master/hooked.gif?raw=true">
 
 引用：
+
 http://www.jianshu.com/p/8982e9670fc6
+
 http://m.blog.csdn.net/article/details?id=49181295
+
+http://www.csdn.net/article/2015-08-07/2825405
